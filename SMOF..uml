@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RF4YMKX0EeeI_u345ei3HA" name="SMOF">
+  <packagedElement xmi:type="uml:Package" xmi:id="_wgT-wKX0EeeI_u345ei3HA" name="EMOF">
+    <packagedElement xmi:type="uml:Class" xmi:id="_W7ZaEKX0EeeI_u345ei3HA" name="Object">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4LPqIKX0EeeI_u345ei3HA" name="get" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_BhiEEKX1EeeI_u345ei3HA" name="property" type="_8eH0kKX0EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sbXtMKX1EeeI_u345ei3HA" name="result" type="_W7ZaEKX0EeeI_u345ei3HA" direction="out"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_iLYEEKX1EeeI_u345ei3HA" name="equals" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_0nuqoKX1EeeI_u345ei3HA" name="element" type="_W7ZaEKX0EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lx2A0KX2EeeI_u345ei3HA" name="result" direction="out">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_i8qXEKX1EeeI_u345ei3HA" name="set">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_WRGN8KX2EeeI_u345ei3HA" name="property" type="_8eH0kKX0EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y1EmkKX2EeeI_u345ei3HA" name="value" type="_W7ZaEKX0EeeI_u345ei3HA"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ajLHIKX2EeeI_u345ei3HA" name="isSet" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_eymU8KX2EeeI_u345ei3HA" name="property" type="_8eH0kKX0EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_jxCk4KX2EeeI_u345ei3HA" name="result" direction="out">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mm1tUKX2EeeI_u345ei3HA" name="unset">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qVqvgKX2EeeI_u345ei3HA" name="property" type="_8eH0kKX0EeeI_u345ei3HA"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qw22sKX2EeeI_u345ei3HA" name="invoke">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vs2PkKX2EeeI_u345ei3HA" name="op" type="_wV5zoKX2EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_90hU4KX2EeeI_u345ei3HA" name="arguments" type="_4K7PIKX2EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_CqdJEKX3EeeI_u345ei3HA" name="result" type="_W7ZaEKX0EeeI_u345ei3HA" direction="out"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8eH0kKX0EeeI_u345ei3HA" name="Propery"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wV5zoKX2EeeI_u345ei3HA" name="Operation"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4K7PIKX2EeeI_u345ei3HA" name="Argument"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_J11xsKX3EeeI_u345ei3HA" name="Element">
+      <generalization xmi:type="uml:Generalization" xmi:id="_LXcuYKX3EeeI_u345ei3HA" general="_W7ZaEKX0EeeI_u345ei3HA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_S4_IwKadEeeaOuby6n6yGg" name="metaclass" type="_VXw8wKX3EeeI_u345ei3HA" association="_S41XwKadEeeaOuby6n6yGg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S5EBQKadEeeaOuby6n6yGg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S5EoUKadEeeaOuby6n6yGg" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_No_TMKX3EeeI_u345ei3HA" name="getMetaClass">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_TxvaIKX3EeeI_u345ei3HA" name="result" type="_VXw8wKX3EeeI_u345ei3HA" direction="out"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OISeUKX3EeeI_u345ei3HA" name="container" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fC-BUKX4EeeI_u345ei3HA" name="result" type="_J11xsKX3EeeI_u345ei3HA" direction="out"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Oc8fsKX3EeeI_u345ei3HA" name="isInstanceOfType" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_mGV9cKX4EeeI_u345ei3HA" name="type" type="_VXw8wKX3EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pS0ggKX4EeeI_u345ei3HA" name="includeSubtypes">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sm45UKX4EeeI_u345ei3HA" name="result" direction="out">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VXw8wKX3EeeI_u345ei3HA" name="Class">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2yyAIKapEeeeX-ZywCjOZQ" general="_liZ68KadEeeaOuby6n6yGg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ghiq8KadEeeaOuby6n6yGg" name="Type">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_5g2v8KapEeeeX-ZywCjOZQ" name="isInstance" visibility="public" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_D-LqcKaqEeeeX-ZywCjOZQ" name="object" type="_W7ZaEKX0EeeI_u345ei3HA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_OLZsYKaqEeeeX-ZywCjOZQ" name="result" direction="out">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_6ME3MKapEeeeX-ZywCjOZQ" name="conformsTo" isQuery="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_VDPG4KaqEeeeX-ZywCjOZQ" name="other" type="_Ghiq8KadEeeaOuby6n6yGg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZMh3gKaqEeeeX-ZywCjOZQ" name="result" direction="out">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_liZ68KadEeeaOuby6n6yGg" name="Classifier">
+      <generalization xmi:type="uml:Generalization" xmi:id="_4Ev-UKapEeeeX-ZywCjOZQ" general="_Ghiq8KadEeeaOuby6n6yGg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jGHLwKaqEeeeX-ZywCjOZQ" name="Factory">
+      <generalization xmi:type="uml:Generalization" xmi:id="_l2HOMKaqEeeeX-ZywCjOZQ" general="_J11xsKX3EeeI_u345ei3HA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_niKgUKaqEeeeX-ZywCjOZQ" name="createFromString">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_zl3iwKaqEeeeX-ZywCjOZQ" name="dataType" type="_rZaesKaqEeeeX-ZywCjOZQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5I34UKaqEeeeX-ZywCjOZQ" name="string">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_CfPKwKarEeeeX-ZywCjOZQ" name="result" type="_W7ZaEKX0EeeI_u345ei3HA" direction="out"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_n_OPwKaqEeeeX-ZywCjOZQ" name="Operation2"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_oQXDEKaqEeeeX-ZywCjOZQ" name="Operation3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rZaesKaqEeeeX-ZywCjOZQ" name="DataType"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S41XwKadEeeaOuby6n6yGg" visibility="private" memberEnd="_S4_IwKadEeeaOuby6n6yGg _S5EoUaadEeeaOuby6n6yGg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S48sgKadEeeaOuby6n6yGg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S49TkKadEeeaOuby6n6yGg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_S5EoUaadEeeaOuby6n6yGg" name="element" type="_J11xsKX3EeeI_u345ei3HA" association="_S41XwKadEeeaOuby6n6yGg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Wc7woKadEeeaOuby6n6yGg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WdHW0KadEeeaOuby6n6yGg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
